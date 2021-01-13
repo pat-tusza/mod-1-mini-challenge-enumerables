@@ -7,17 +7,23 @@ spicy_foods = [
 ]
 
 def print_spicy_foods(spicy_foods)
-    spicy_foods_array= []
-    spicy_foods.each do |key, value|
-      if spicy_foods[:heat_level] < 2 
-        spicy_foods_array = spicy_foods[:name]
-      end
-    end
-  end
+  # spicy_foods_array= []
+  # spicy_foods.each do |key, value|
+  #     if spicy_foods[:heat_level] < 2 
+  #       spicy_foods_array = spicy_foods[:name]
+  #     end
+  #   end
+ 
+  # end
 end
 
 def get_names(spicy_foods)
-
+  new_arr= []
+  spicy_foods.each do |key , value|
+    if spicy_foods[key] == spicy_foods[:name]
+      new_arr << value
+    end
+  end
 end
 
 def spiciest_foods(spicy_foods)
