@@ -7,7 +7,8 @@ spicy_foods = [
 ]
 
 def print_spicy_foods(spicy_foods)
-
+    spicy_foods_array= []
+    spicy_foods.each do |
 end
 
 def get_names(spicy_foods)
